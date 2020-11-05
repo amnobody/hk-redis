@@ -1,5 +1,6 @@
 # this is annotation
 FROM java:8
+MAINTAINER chenjiwei
 EXPOSE 8002
 VOLUME /tmp
 ADD hk-redis-0.0.1-SNAPSHOT.jar app.jar
