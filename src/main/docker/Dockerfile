@@ -1,3 +1,4 @@
+# this is annotation
 FROM java:8
 EXPOSE 8002
 VOLUME /tmp
