@@ -42,4 +42,7 @@ public class R extends HashMap<String, Object> {
         return new R();
     }
 
+    public static void main(String[] args) {
+
+    }
 }
