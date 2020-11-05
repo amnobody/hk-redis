@@ -11,7 +11,7 @@ import org.springframework.data.redis.listener.RedisMessageListenerContainer;
  * @author ChenJiWei
  * @version V1.0
  * @date 2020/11/03
- * @description 实现...KeyExpirationEventMessageListener 接口 查看源码发现，该接口监听所有db的过期时间 key event@*:expired"
+ * @description 实现...KeyExpirationEventMessageListener 接口 查看源码发现，该接口监听所有db的过期时间 key event@*:expired" -1
  */
 @Configuration
 public class RedisKeyExpirationListener extends KeyExpirationEventMessageListener {
